@@ -1,0 +1,49 @@
+/* App.css */
+
+body {
+  background-color: #118ce4;
+  color: #000000;
+}
+
+.app-title {
+  color: #000000;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.quiz-div{
+  background-color: rgb(207, 241, 251);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 475px;
+  margin-top: 200px;
+  width: 500px;
+  margin-right: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 24px;
+  border: solid;
+  border-width: 4px;
+  border-color: rgb(20, 95, 152);
+}
+
+.result-div{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ques-div{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
